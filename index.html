@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Website : Developed by Ayush,Akhita & Shruti</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./Bootstrap/Css/bootstrap.min.css">
+  <link rel="icon" href="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg nav-main ">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand" href="#">
+        <i class="ri-cloudy-2-fill cloud-color"></i>
+        <span class="logo-para">SkyCast</span>
+      </a>
+
+      <div class=" d-flex justify-content-end" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about">
+              <span class="about-para">About Us</span>
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="settings-para">Settings</span>
+              <i class="ri-settings-5-line setting-color"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li target="_blank"><a class="dropdown-item" target="_blank"  href="./feedback.html">Feedback</a></li>
+              <li target="_blank"><a class="dropdown-item" href="./privacy_policy.html" target="_blank">Privacy Policy</a></li>
+            </ul>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="help-para">Help</span>
+              <i class="ri-question-line help-color"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li target="_blank"><a class="dropdown-item" href="./about_app.html" target="_blank">About this App</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-2-container">
+    <div class="div-left">
+      <div class="heading-h1-container">
+        <h1 class="h1-hero">Weather & <br> Forecast
+          <span class="snow-h1"><i class="ri-snowflake-line"></i></span>
+          Application
+        </h1>
+      </div>
+
+      <div class="heading-h3-container">
+         <h3 class="h3-hero">Use weather information and get weather information daily <br> freely experience it today</h3>
+      </div>
+      <div class="button-hero-container">
+        <button class="button">
+          <i class="ri-cloud-fill apple-color"></i>
+          <span class="download-bold">
+            <a href="./weather.html" class="download-a" target="_blank">Check Weather</a>
+
+          </span>
+        </button>
+      </div>
+      <div class="div-hero-read-more">
+        <span><a href="#" class="read-more-hero">Read More About it</a>
+          <i class="ri-information-2-line read"></i>
+        </span>
+      </div>
+
+    </div>
+    <div class="div-right">
+      <div class="video-play">
+        <video autoplay loop muted src="./Videos/mountain_wind_view.mp4"></video>
+      </div>
+    </div>
+  </div>
+
+  <section class="class-4" id="about">
+    <h4 class="h4-class">Our Team</h4>
+    <div class="hero-4-container">
+
+      <div class="flip">
+        <div class="front"
+          style="background-image: url('Images/Ayu.jpg');
+          background-position:top top;
+          background-size: contain;
+          background-repeat: no-repeat;">
+          <!-- <h1 class="text-shadow">Ayush Lingayat</h1> -->
+        </div>
+        <div class="back">
+          <h2>Ayush Lingayat</h2>
+          <p> a passionate individual with a keen interest in frontend development and a dedication to mastering the craft. Currently pursuing a Master of Computer Applications..
+          </p>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="front"
+          style="background-image: url('Images/Akishita_Img.jpg');
+          background-position: top top;
+          background-size: contain;">
+          <!-- <h1 class="text-shadow" style="color:rgb(255, 242, 213);">Akshita Warade</hi> -->
+        </div>
+        <div class="back">
+          <h2>Akshita Warade</h2>
+          <p>Hello I am Akshita Warade a budding enthusiast with a passion for computer programming and an insatiable curiosity for all things tech-related..
+          </p>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="front"
+          style="background-image: url('Images/shruti.jpg');
+          background-position:center;
+          background-size: contain;
+          background-repeat: no-repeat;">
+          <!-- <h1 class="text-shadow">Shruti Kulkarni</hi> -->
+        </div>
+        <div class="back">
+          <h2>Shruti Kulkarni</h2>
+          <p> I am Shruti Kulkarni a tech enthusiast with a love for computers and a passion for dancing.I find joy in both the intricacies of coding and the freedom of movement on the dance floor..
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+  <section class="section-5">
+    <div class="testimonials">
+
+      <div class="block">
+    
+        <h2 class="h2-class">Feedback <i class="ri-feedback-fill"></i></h2>
+        <h5>Why people love our weather forcast application</h5>
+    
+      </div>
+    
+      <blockquote class="block">
+    
+        <p class="test-para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi impedit numquam facilis iusto porro labore dolorem, maxime magni."</p>
+    
+        <footer>
+          <cite><span>Alex McGee</span></cite>
+        </footer>
+    
+      </blockquote>
+    
+      <blockquote class="block">
+    
+        <p class="test-para">"Totam at eius excepturi deleniti sed, error repellat itaque omnis maiores tempora ratione dolor velit minus porro aspernatur repudiandae labore quas adipisci esse, nulla tempore voluptatibus cupiditate."</p>
+    
+        <footer>
+          <cite><span>Melissa Washington</span></cite>
+        </footer>
+    
+      </blockquote>
+    
+      <blockquote class="block">
+    
+        <p class="test-para">"Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta dolor itaque sunt laborum, magni qui optio illum dolore laudantium similique harum. Ab provident, porro atque."</p>
+    
+        <footer>
+          <cite><span>Joseph Salazar</span></cite>
+        </footer>
+    
+      </blockquote>
+    
+      <blockquote class="block">
+    
+        <p class="test-para">"Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendis quae repellat, modi non, veniam natus soluta at optio vitae in excepturi minima eveniet dolor."</p>
+    
+        <footer>
+          <cite><span>Maria Douglas</span></cite>
+        </footer>
+    
+      </blockquote>
+    
+      <blockquote class="block">
+    
+        <p class="test-para">"Accusantium at omnis vel, possimus fugiat explicabo necessitatibus facilis tempore voluptate, ea in, sunt magnam officia? Beatae reprehenderit non tempore, assumenda reiciendis."</p>
+
+        <footer>
+          <cite><span>Anna Maria</span></cite>
+        </footer>
+    
+    
+      </blockquote>				
+    
+    </div>
+  </section>
+
+
+  <section class="section-6">
+    <div class="section-main-6">
+      <div id="video-page1">
+        <h1>Stay informed about <br> current weather</h1>
+        <video src="./Videos/video_animation.mp4" autoplay loop muted></video>
+    </div>
+    </div>
+  </section>
+
+  <section class="section-7">
+    <div class="section-main-7">
+      <div id="video-page2">
+        <h1>Stay updated with<br>weather updates</h1>
+        <video src="./Videos/cloud_video.mp4" autoplay loop muted></video>
+    </div>
+    </div>
+  </section>
+
+
+  <div class="section-8">
+    <div class="content">
+  <div class="container">
+  <div class="row justify-content-center">
+  <div class="col-md-10">
+  <div class="row align-items-center">
+  <div class="col-lg-7 mb-5 mb-lg-0">
+  <h2 class="mb-5">Connect with us <br> It's easy.</h2>
+  <form action="https://fabform.io/f/{insert-fabform-form-id-here}" class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm">
+  <div class="row">
+  <div class="col-md-6 form-group">
+  <input type="text" class="form-control" name="fname" id="fname" placeholder="First name">
+  </div>
+  <div class="col-md-6 form-group">
+  <input type="text" class="form-control" name="lname" id="lname" placeholder="Last name">
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-12 form-group">
+  <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-12 form-group">
+  <textarea class="form-control" name="message" id="message" cols="30" rows="5" placeholder="Write your message"></textarea>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-12">
+  <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+  <span class="submitting"></span>
+  </div>
+  </div>
+  </form>
+  <div id="form-message-warning mt-4"></div>
+  </div>
+  <div class="col-lg-4 ml-auto">
+  <h3 class="mb-4">Let's talk about weather related things.</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil deleniti itaque similique magni. Magni, laboriosam perferendis maxime!</p>
+  <p><a href="#">Read more</a></p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  </div>
+
+  <div class="section-9-footer">
+    <footer class="kilimanjaro_area">
+      <div class="foo_top_header_one section_padding_100_70">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="kilimanjaro_part">
+                <h5>About Us</h5>
+                <p>SkyCast is a weather website providing users with concise and accurate weather forecasts. It offers real-time updates on current weather conditions, hourly forecasts, and extended outlooks. </p>
+              </div>
+              <div class="kilimanjaro_part m-top-15">
+                <h5>Social Links</h5>
+                <ul class="kilimanjaro_social_links">
+                  <li><a href="https://github.com/ayushlingayat" target="_blank" style="text-decoration: none;"><i class="ri-github-fill"></i>GitHub</a>
+                  </li>
+                  <li><a href="#" target="_blank" style="text-decoration: none;"><i class="ri-instagram-fill"></i>Instagram</a>
+                  </li>
+                  <li><a href="https://www.linkedin.com/in/ayush-lingayat/" target="_blank" style="text-decoration: none;"><i class="ri-linkedin-fill"></i>LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="kilimanjaro_part">
+                <h5>Weather Tags</h5>
+                <ul class=" kilimanjaro_widget">
+                  <li><a href="#">#Weather</a></li>
+                  <li><a href="#">#Forecast</a></li>
+                  <li><a href="#">#Sunshine</a></li>
+                  <li><a href="#">#SunnyDays</a></li>
+                  <li><a href="#">#ChasingStorms</a></li>
+                  <li><a href="#">#Thunderstorm</a></li>
+                  <li><a href="#">#WeatherWatch</a></li>
+                  <li><a href="#">#ClearSkies</a></li>
+                </ul>
+              </div>
+    
+              <div class="kilimanjaro_part m-top-15">
+                <h5>Important Links</h5>
+                <ul class="kilimanjaro_links">
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Settings</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>About
+                      Us</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Help</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Team</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="kilimanjaro_part">
+                <h5>Latest Search</h5>
+                <ul class="kilimanjaro_links">
+                  
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Forcast</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Weather</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>SunnyWeather
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="kilimanjaro_part">
+                <h5>Quick Contact</h5>
+                <div class="kilimanjaro_single_contact_info">
+                  <h5>Phone:</h5>
+                  <p><a href="#">+91-8668755563</a><br><a href="#">+91-7057804617</a><br><a href="#">+91-9356408197</a></p>
+                </div>
+                <div class="kilimanjaro_single_contact_info">
+                  <h5>Email:</h5>
+                  <p><a href="#">lingayatayush3@gmail.com</a> <br><a href="#">shrutikulkarni30499@gmail.com</a><br><a href="#">akshitawarade@gmail.com</a> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom Area Start -->
+      <div class=" kilimanjaro_bottom_header_one section_padding_50 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>© All Rights Reserved 2024&nbsp; <br> Developed and designed by Shruti, Ayush,  Akshita</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  </div>
+  
+ 
+  <script src="./JS/app.js"></script>
+  <script src="./testinomial.js"></script>
+  <script src="./Bootstrap/Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
